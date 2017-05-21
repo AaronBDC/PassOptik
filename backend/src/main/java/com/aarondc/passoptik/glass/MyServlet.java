@@ -8,10 +8,18 @@ package com.aarondc.passoptik.glass;
 
 import java.io.IOException;
 
-import javax.servlet.http.*;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 public class MyServlet extends HttpServlet {
     @Override
+//    public void doGet(HttpServletRequest req, HttpServletResponse resp)
+//            throws IOException, ServletException {
+//        resp.setContentType("text/plain");
+//        String pass = PassOptik.getRandomOptik();
+//        resp.getWriter().println(pass);
+//    }//end doGet0
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws IOException {
         resp.setContentType("text/plain");

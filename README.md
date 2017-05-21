@@ -3,7 +3,8 @@ MirrorAPI based version of PeepAPass. A simple password manager for Google Glass
 
 ## Getting Started
 ### Prerequisites
-
+- Google-Cloud/App-Engine
+- For Fancy Templates FreeMarker: http://freemarker.sourceforge.net/
 ### Installing
 
 ## Running the Tests
@@ -28,6 +29,6 @@ See CONTRIBUTE.md
 ## Authors
 Aaron DC
 ## License
-Apache v2.0
+See LICENSE.MD
 ## Acknowledgements
 Schana N. Carter
