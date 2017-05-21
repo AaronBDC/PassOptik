@@ -2,10 +2,14 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
     <servlet>
         <servlet-name>MyServlet</servlet-name>
-        <servlet-class>glass.aarondc.com.passoptik.PassOptikServlet</servlet-class>
+        <servlet-class>com.aarondc.com.passoptik.glass.MyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PassOptikServlet</servlet-name>
+        <servlet-class>com.aarondc.com.passoptik.glass.PassOptikServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>PassOptikServlet</servlet-name>
+        <servlet-name>MyServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
